@@ -162,9 +162,11 @@
 
 ga('create', 'UA-67068914-2', 'auto');
 ga('send', 'pageview');
-$('#signup').on('click', function() {
+var signupLink = document.getElementById('button');
+addListener(signupLink, 'click', function() {
   ga('send', 'event', 'button', 'click', 'signup');
 });
+
 </script>
 
 </html>
