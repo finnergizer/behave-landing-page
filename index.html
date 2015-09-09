@@ -7,10 +7,12 @@
 <html>
 
 <head>
-    <title>Behave - A Classroom Management App</title>
+    <title>Behave - Classroom Behavior Management App for Teachers & Principals</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="A web application for teachers and principals to manage students in the classroom, report on behavior, take proper action, and share with parents." />
+    <meta name="keywords" content="classroom behavior student kids management report school" />
+    <meta name="robots" content="index, follow" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/skel.min.js"></script>
@@ -31,8 +33,8 @@
             <!-- Nav -->
             <nav id="nav">
                 <ul>
-                    <li class="active"><a href="index.html">Homepage</a></li>
-                    <li><a href="http://app.behaveapp.me">Login</a></li>
+                    <li itemscope itemtype="http://schema.org/Product" class="active"><a itemprop="url" rel="canonical" href="index.html">Homepage</a></li>
+                    <li itemscope itemtype="http://schema.org/Product"><a itemprop="url" href="http://app.behaveapp.me" i>Login</a></li>
 <!--                     <li><a href="right-sidebar.html">Right Sidebar</a></li>
                     <li><a href="no-sidebar.html">No Sidebar</a></li> -->
                 </ul>
@@ -44,8 +46,8 @@
                 <h1><a href="#">Behave</a></h1>
                 <!-- <span class="tag">By TEMPLATED</span> -->
             </div>
-            <div>
-                <a id="signup" class="button no-transparency" href="http://app.behaveapp.me/#/?modalView=signup">Sign up</a>
+            <div itemscope itemtype="http://schema.org/Product">
+                <a itemprop="url" id="signup" class="button no-transparency" href="http://app.behaveapp.me/#/?modalView=signup">Sign up</a>
             </div>
         </div>
     </div>
@@ -55,22 +57,22 @@
             <header>
                 <h2>Welcome to Behave</h2>
             </header>
-            <p>This is <strong>Behave</strong>, a classroom management application for teachers and principals. Follow us on <a href="http://twitter.com/BehaveApp">Twitter</a> for latest updates and releases.</p>
+            <p>This is <strong>Behave</strong>, a classroom management application teachers and principals to keep track of students in the classroom, report on behavior, take proper action, organize common incidents and share with parents. Follow us on <a href="http://twitter.com/BehaveApp">Twitter</a> for latest updates and releases.</p>
             <hr />
-            <div class="row">
+            <div itemscope itemtype="http://schema.org/Product" class="row">
                 <section class="4u">
                     <span class="pennant"><i class="fa fa-child"></i></span>
-                    <h3>Track your students</h3>
+                    <h3 itemprop="additionalProperty">Track your students</h3>
                     <p>Maintain a list of your students and their details, including contact information.</p>
                 </section>
                 <section class="4u">
                     <span class="pennant"><span class="fa fa-file-text"></span></span>
-                    <h3>Create detailed reports</h3>
-                    <p>Keep track of incidents of misbehaviour, who is involved, so that you can remember to follow up or take necessary action</p>
+                    <h3 itemprop="additionalProperty">Create detailed reports</h3>
+                    <p>Keep track of incidents of misbehavior, who is involved, so that you can remember to follow up or take necessary action</p>
                 </section>
                 <section class="4u">
                     <span class="pennant"><span class="fa fa-globe"></span></span>
-                    <h3>Share your reports</h3>
+                    <h3 itemprop="additionalProperty">Share your reports</h3>
                     <p>Create PDFs of your reports for sharing with principals, parents, colleagues if necessary.</p>
                 </section>
             </div>
@@ -79,34 +81,34 @@
     <!-- Main -->
     <div id="main">
         <div id="content" class="container">
-            <div class="row">
+            <div itemscope itemtype="http://schema.org/Product" class="row">
                 <section class="6u">
-                    <a href="#" class="image full"><img src="images/report-create.png" alt=""></a>
+                    <a href="#" class="image full"><img src="images/report-create.png" alt="Quickly add etails to reports on your studentsw"></a>
                     <header>
-                        <h2>Create reports</h2>
+                        <h2 itemprop="additionalProperty">Create reports</h2>
                     </header>
                     <p>Specify a description of the incident, students involved, location, time, violence, custom made incident types.</p>
                 </section>
                 <section class="6u">
-                    <a href="#" class="image full"><img src="images/report-list.png" alt=""></a>
+                    <a href="#" class="image full"><img src="images/report-list.png" alt="Quickly find reports that you have created"></a>
                     <header>
-                        <h2>View a summary of your reports</h2>
+                        <h2 itemprop="additionalProperty">View a summary of your reports</h2>
                     </header>
                     <p>View a list and search for reports that have been filed in your account</p>
                 </section>
             </div>
             <div class="row">
                 <section class="6u">
-                    <a href="#" class="image full"><img src="images/incident-create.png" alt=""></a>
+                    <a href="#" class="image full"><img src="images/incident-create.png" alt="Custom incidents allow for quick additions to reports"></a>
                     <header>
-                        <h2>Create custom incidents</h2>
+                        <h2 itemprop="additionalProperty">Create custom incidents</h2>
                     </header>
                     <p>Create a custom incident type and specify the degree to which it might be handled</p>
                 </section>
                 <section class="6u">
-                    <a href="#" class="image full"><img src="images/student-list.png" alt=""></a>
+                    <a href="#" class="image full"><img src="images/student-list.png" alt="Students listed in an organized fashion"></a>
                     <header>
-                        <h2>View a list of your students</h2>
+                        <h2 itemprop="additionalProperty">View a list of your students</h2>
                     </header>
                     <p>Search for students and find their details quickly</p>
                 </section>
